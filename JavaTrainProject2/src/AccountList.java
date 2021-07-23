@@ -1,4 +1,10 @@
+import java.util.ArrayList;
+import java.util.List;
 
-public class AccountList {
-
+class AccountList {
+	List<Account> list;
+	public AccountList() {
+		list = new ArrayList<>();
+	}
+	
 }
